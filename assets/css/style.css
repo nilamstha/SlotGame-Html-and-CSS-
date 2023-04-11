@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+li{
+  list-style: none;
+}
+.pr-40{
+  padding-right: 40px;
+}
+body{
+  font-family: 'Bangers', sans-serif;
+font-family: 'Chewy', sans-serif;
+}
+.page-wrapper{
+  background-image: url('../images/GAME/Desktop_Animation/bACKGROUND1.png');
+  height: 100vh;
+}
+.header__wrapper{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.amt-section{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.amt-section span{
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+}
+.user-image-section img{
+  width: 80px;
+}
+.sidebar{
+  position: fixed;
+    top: 16%;
+    left: 6%;
+}
+.sidebar li {
+  margin-bottom: 10px;
+}
+.sidebar img{
+  width: 80px;
+}
+.main-body{
+  padding-left: 110px;
+}
+.nav__wrap{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.nav__wrap img{
+  width: 80px;
+}
+.nav__wrap h5{
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+}
+.nav__wrap__login img{
+  width: 390px;
+}
+
+.footer__wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+/*Login Section */
+.login-inner{
+  width: 450px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  height: 100vh;
+}
