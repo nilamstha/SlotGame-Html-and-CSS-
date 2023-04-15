@@ -13,7 +13,7 @@ body{
 font-family: 'Chewy', sans-serif;
 }
 .page-wrapper{
-  background-image: url('../images/GAME/Desktop_Animation/bACKGROUND1.png');
+  background-image: url('../images/complete_lobby_files');
   height: 100vh;
 }
 .header__wrapper{
