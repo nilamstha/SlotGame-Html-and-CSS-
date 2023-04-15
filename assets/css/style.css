@@ -13,8 +13,12 @@ body{
 font-family: 'Chewy', sans-serif;
 }
 .page-wrapper{
-  background-image: url('../images/complete_lobby_files');
+  background-image: url('../images/complete_lobby_files/lobby_seperated_ui_buttons/background/lobby_backgorund.png');
   height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 .header__wrapper{
   padding-top: 10px;
@@ -64,10 +68,29 @@ font-family: 'Chewy', sans-serif;
 .nav__wrap__login img{
   width: 390px;
 }
-
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* height: 152px; */
+  background-image: url(../images/complete_lobby_files/lobby_seperated_ui_buttons/background/bottom_bar.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 7%;
+}
 .footer__wrapper{
   display: flex;
   justify-content: center;
+}
+
+header{
+  background-image: url(../images/complete_lobby_files/lobby_seperated_ui_buttons/background/top_bar.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 
 /*Login Section */
