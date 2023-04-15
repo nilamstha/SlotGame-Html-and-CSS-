@@ -8,10 +8,7 @@ li{
 .pr-40{
   padding-right: 40px;
 }
-body{
-  font-family: 'Bangers', sans-serif;
-font-family: 'Chewy', sans-serif;
-}
+
 .page-wrapper{
   background-image: url('../images/complete_lobby_files/lobby_seperated_ui_buttons/background/lobby_backgorund.png');
   height: 100vh;
@@ -20,10 +17,10 @@ font-family: 'Chewy', sans-serif;
   background-size: cover;
   position: relative;
 }
-.header__wrapper{
+/* .header__wrapper{
   padding-top: 10px;
   padding-bottom: 10px;
-}
+} */
 .amt-section{
   padding-left: 10px;
   padding-right: 10px;
@@ -34,6 +31,7 @@ font-family: 'Chewy', sans-serif;
   font-weight: 700;
   font-size: 20px;
 }
+
 .user-image-section img{
   width: 80px;
 }
@@ -50,23 +48,33 @@ font-family: 'Chewy', sans-serif;
 }
 .main-body{
   padding-left: 110px;
+  padding-top: 50px;
 }
-.nav__wrap{
+
+.main-body img{
+  width: 230px;
+}
+/* .nav__wrap{
   display: flex;
   align-items: center;
   flex-direction: column;
-}
+}*/
+
 .nav__wrap img{
-  width: 80px;
-}
-.nav__wrap h5{
+  height: 120px;
+} 
+/* .nav__wrap h5{
   color: #fff;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 20px;
+} */
+.nav__wrap__login{
+  display: flex;
+  align-items: end;
 }
 .nav__wrap__login img{
-  width: 390px;
+  height: 80px;
 }
 footer{
   position: fixed;
@@ -92,12 +100,55 @@ header{
   margin-left: -10px;
   margin-right: -10px;
 }
+.carousel-control-next {
+  right: -71px;
+}
+.carousel-control-next-icon {
+ background-image: url(../images/complete_lobby_files/lobby_seperated_ui_buttons/slider/next_btn.png);
+ height: 3rem;
+}
+.carousel-control-prev-icon {
+ display: none;
+}
+
+
+.carousel-indicators .active {
+  opacity: 1;
+}
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: 0.5;
+    transition: opacity .6s ease;
+    background-image: url(../images/complete_lobby_files/lobby_seperated_ui_buttons/slider/slider_active.png);
+}
+
 
 /*Login Section */
-.login-inner{
-  width: 450px;
+.login-section{
+  height: 100vh;
+  background-image: url(../images/complete_lobby_files/login/login_background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
   display: flex;
   align-items: center;
-  margin: auto;
-  height: 100vh;
+}
+
+.login_inner{
+  width: 275px;
+  margin-left: 178px;
 }
