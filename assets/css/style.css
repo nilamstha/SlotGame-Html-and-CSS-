@@ -51,7 +51,7 @@ li{
   padding-top: 50px;
 }
 
-.main-body img{
+.carousel-inner img{
   width: 230px;
 }
 /* .nav__wrap{
@@ -153,6 +153,20 @@ header{
   margin-left: 178px;
   margin-top: 190px;
 }
+
+.width-73{
+  width: 73% !important;
+}
+
+
+/* For sidebar active image*/
+/* .sidebar ul li .image{
+  display: none;
+}
+
+.sidebar ul li .image.active{
+  display: block;
+} */
 
 
 
