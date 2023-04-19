@@ -101,16 +101,18 @@ header{
   margin-right: -10px;
 }
 .carousel-control-next {
-  right: -71px;
+  right: -18px;
 }
 .carousel-control-next-icon {
  background-image: url(../images/complete_lobby_files/lobby_seperated_ui_buttons/slider/next_btn.png);
  height: 3rem;
 }
-.carousel-control-prev-icon {
+.carousel-control-prev {
  display: none;
 }
-
+.carousel-control-next, .carousel-control-prev {
+  width: 3%;
+}
 
 .carousel-indicators .active {
   opacity: 1;
