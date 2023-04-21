@@ -186,5 +186,45 @@ header{
   display: block;
 } */
 
+/* Page Loader Section*/
+.page-loader{
+  height: 100vh;
+  background-image: url('../images/complete_lobby_files/loading/loading_background_images/full_image.png');
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.page-loader .image-folder{
+  margin-bottom: 120px;
+  position: relative;
+}
+.page-loader .image-folder img{
+  width: 800px;
+}
+
+.progress-bar{
+  position: absolute;
+  left: 10px;
+  top: 8px;
+  height: 15px;
+  background-color: #301c02;
+  border-radius: 5px;
+  animation: progress 10s ease-in 1;
+}
+
+@keyframes progress {
+  from {
+      width: 0;
+  }
+  to{width: 100%;
+    
+  }
+}
+
 
 
