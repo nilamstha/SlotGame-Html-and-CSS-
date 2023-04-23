@@ -21,15 +21,16 @@ li{
   padding-top: 10px;
   padding-bottom: 10px;
 } */
-.amt-section{
+/* .amt-section{
   padding-left: 10px;
   padding-right: 10px;
-}
+} */
 .amt-section span{
   color: #fff;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: 26px;
 }
 
 .user-image-section img{
@@ -227,4 +228,18 @@ header{
 }
 
 
+.carousel{
+  height: calc(100vh - 274px);
+}
 
+
+.header-middle-section{
+  width: 73%;
+  margin-left: 104px;
+  height: 60px;
+  position: relative;
+}
+
+body {
+  cursor: url('../images/complete_lobby_files/lobby_seperated_ui_buttons/slider/cursor.png'), auto;
+}
