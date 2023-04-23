@@ -243,3 +243,26 @@ header{
 body {
   cursor: url('../images/complete_lobby_files/lobby_seperated_ui_buttons/slider/cursor.png'), auto;
 }
+
+
+/* Responsive View */
+@media screen and (min-width:1920px){
+  .sidebar{
+    left:14% ;
+  }
+  footer{
+    left: 16%;
+  }
+}
+
+@media screen and (max-width:1440px){
+  .sidebar{
+    left:3% ;
+  }
+  footer{
+    left: 4%;
+  }
+}
+
+
+
